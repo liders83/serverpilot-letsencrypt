@@ -43,7 +43,7 @@ fi
 
 printf "Is this a main domain or sub-domain? (main/sub): " ; read -r domainType
 
-spAppRoot="/srv/users/serverpilot/apps/$appName"
+spAppRoot="/srv/users/whmcs/apps/$appName"
 spSSLDir="/etc/nginx-sp/vhosts.d/"
 
 # Install Let's Encrypt libraries if not found
